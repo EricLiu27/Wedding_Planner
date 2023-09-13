@@ -1,0 +1,48 @@
+@{
+    ViewData["Title"] = "Home Page";
+
+}
+
+@model List<Wedding>
+@await Html.PartialAsync("_Nav")
+@{
+    int UUID = (int)Context.Session.GetInt32("UUID");
+}
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Wedding of</th>
+            <th>Date</th>
+            <th>Guest Count</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (Wedding w in Model)
+        {
+            bool rsvp = w.UsersGuest.Any(ug => ug.UserId == UUID);
+            <tr>
+                <td>
+                    <a asp-action="ViewWedding" asp-controller="Wedding" asp-route-id="@w.WeddingId">@w.WedderOne &
+                        @w.WedderTwo</a>
+                </td>
+                <td>@w.Date.ToString("MMM dd, yyyy")</td>
+                <td>@w.UsersGuest.Count</td>
+                <td>
+                    @if (w.UserId == UUID)
+                    {
+                        <form asp-action="DeleteWedding" asp-controller="Wedding" asp-route-id="@w.WeddingId" method="Post">
+                            <button class="btn btn-danger">Delete</button>
+                        </form>
+                    }
+                    else
+                    {
+                        <form asp-action="ToggleRSVP" asp-controller="Wedding" asp-route-id="@w.WeddingId" method="Post">
+                            <button class="btn btn-primary">@(rsvp ? "Un-RSVP" : "RSVP")</button>
+                        </form>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

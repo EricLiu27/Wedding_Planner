@@ -1,0 +1,68 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Wedding_Planner
+build_property.RootNamespace = Wedding_Planner
+build_property.ProjectDir = C:\Users\Eric\Desktop\Coding Dojo\Dojo Assignments\C Sharp\ORM\Belt Prep\Wedding_Planner\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Eric\Desktop\Coding Dojo\Dojo Assignments\C Sharp\ORM\Belt Prep\Wedding_Planner
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Eric/Desktop/Coding Dojo/Dojo Assignments/C Sharp/ORM/Belt Prep/Wedding_Planner/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eric/Desktop/Coding Dojo/Dojo Assignments/C Sharp/ORM/Belt Prep/Wedding_Planner/Views/Shared/_NoNavNoFoot.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ob05hdk5vRm9vdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eric/Desktop/Coding Dojo/Dojo Assignments/C Sharp/ORM/Belt Prep/Wedding_Planner/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eric/Desktop/Coding Dojo/Dojo Assignments/C Sharp/ORM/Belt Prep/Wedding_Planner/Views/User/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eric/Desktop/Coding Dojo/Dojo Assignments/C Sharp/ORM/Belt Prep/Wedding_Planner/Views/User/_Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxfTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eric/Desktop/Coding Dojo/Dojo Assignments/C Sharp/ORM/Belt Prep/Wedding_Planner/Views/User/_Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxfUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eric/Desktop/Coding Dojo/Dojo Assignments/C Sharp/ORM/Belt Prep/Wedding_Planner/Views/Wedding/NewWedding.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2VkZGluZ1xOZXdXZWRkaW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eric/Desktop/Coding Dojo/Dojo Assignments/C Sharp/ORM/Belt Prep/Wedding_Planner/Views/Wedding/ViewAllWeddings.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2VkZGluZ1xWaWV3QWxsV2VkZGluZ3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eric/Desktop/Coding Dojo/Dojo Assignments/C Sharp/ORM/Belt Prep/Wedding_Planner/Views/Wedding/ViewWedding.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2VkZGluZ1xWaWV3V2VkZGluZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eric/Desktop/Coding Dojo/Dojo Assignments/C Sharp/ORM/Belt Prep/Wedding_Planner/Views/Wedding/_Nav.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2VkZGluZ1xfTmF2LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eric/Desktop/Coding Dojo/Dojo Assignments/C Sharp/ORM/Belt Prep/Wedding_Planner/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eric/Desktop/Coding Dojo/Dojo Assignments/C Sharp/ORM/Belt Prep/Wedding_Planner/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eric/Desktop/Coding Dojo/Dojo Assignments/C Sharp/ORM/Belt Prep/Wedding_Planner/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-r8csvdm0m9

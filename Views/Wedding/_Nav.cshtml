@@ -1,0 +1,10 @@
+<div class="d-flex justify-content-between align-items-center border-bottom">
+    <h2>Welcome @Context.Session.GetString("LoggedUser")</h2>
+    <div class="d-flex justify-content-cneter gap-3 align-items-center">
+        <a asp-action="ViewAllWeddings" asp-controller="Wedding">Home</a>
+        <a asp-action="NewWedding" asp-controller="Wedding">Plan a Wedding</a>
+        <form asp-action="LogoutUser" asp-controller="User" method="Post">
+            <button class="btn btn-link">Logout</button>
+        </form>
+    </div>
+</div>
